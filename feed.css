@@ -8,14 +8,6 @@
     outline: none;
 }
 
-body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
 header {
     padding: 32px;
     background-color: rgb(75, 80, 80);
@@ -32,38 +24,39 @@ header nav a{
     color: black;
     margin-right: 10px;
     font-size: 30px;
+    font: bold;
 }
 
 header nav a:hover{
     color: white;
 }
 
-div {
-    width: 500px;
-    margin: auto;
-    background-color: rgb(75, 80, 80);
-    padding: 32px;
-    min-height: 100px;
+.content {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    margin-top: 76px;
     flex-direction: column;
-    border-radius: 4px;
 }
 
-div input {
+.publi {
+    width: max-content;
+    margin: 16px auto;
     display: flex;
     flex-direction: column;
-    margin: 10px;
-    padding: 10px;
+    background-color: #333;
 }
 
-button {
-    margin: 10px;
-    padding: 5px 50px;
-    border-radius: 20px;
+.publi h3 {
+    color: #fff;
+    margin: 8px;
 }
 
-button:hover {
-    
+.publi div {
+    display: flex;
+}
+
+.publi img {
+    width: 300px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
